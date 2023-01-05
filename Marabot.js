@@ -11,7 +11,7 @@ const projectId = "nzbot-qeei";
 const sessionId = uuid.v4();
 const languageCode = "es-ES";
 const dialogflow = require("dialogflow");
-const sessionClient = new dialogflow.SessionsClient({keyFilename: "nzbot-qeei-5be854ffceb8.json"});
+const sessionClient = new dialogflow.SessionsClient({keyFilename: "Insert your KEY API"});
 
 
 client.once("ready",(bot)=>{
